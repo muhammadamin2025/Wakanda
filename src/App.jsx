@@ -1,9 +1,25 @@
+import CallToAction from "./Components/CallToAction";
+import Explore from "./Components/Explore";
+import Feature from "./Components/Feature";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+import SocialProff from "./Components/SocialProff";
+import Testimonial from "./Components/Testimonial";
+import Tutorial from "./Components/Tutorial";
+
 function App() {
   return (
     <>
-      <h1 className="text-4xl font-bold text-red-600">
-        Tailwind ishlayapti 🔥
-      </h1>
+      <Header />
+      <Hero />
+      <SocialProff />
+      <Feature />
+      <Tutorial />
+      <Explore />
+      <Testimonial />
+      <CallToAction />
+      <Footer />
     </>
   );
 }
